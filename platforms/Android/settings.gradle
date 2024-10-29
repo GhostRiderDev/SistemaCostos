@@ -71,7 +71,7 @@ def applySettingsGradleConfiguration = { ->
         def settingsGradle = file(pathToSettingsGradle)
         if (settingsGradle.exists()) {
             outLogger.withStyle(Style.SuccessHeader).println "\t + applying user-defined configuration from ${settingsGradle}"
-            apply from: "platforms/Android/settings.gradle"
+            apply from: "settings.gradle"
         }
 }
 
