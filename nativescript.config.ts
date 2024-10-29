@@ -3,7 +3,7 @@ import { NativeScriptConfig } from '@nativescript/core';
 export default {
   id: 'org.nativescript.app',
   appPath: 'src',
-  appResourcesPath: './platforms',
+  appResourcesPath: '/platforms',
   android: {
     v8Flags: '--expose_gc',
     markingMode: 'none'
