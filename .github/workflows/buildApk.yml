@@ -37,6 +37,9 @@ jobs:
           build-tools: '30.0.3'
           ndk: '21.4.7075529'
 
+      - name: CP platforms folder
+        run: cp  platforms/ /home/runner/work/SistemaCostos/SistemaCostos/platforms/Android
+
       - name: Build Android APK
         run: ns build android
 
