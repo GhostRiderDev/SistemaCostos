@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.social_share" >
+4
+5    <uses-sdk android:minSdkVersion="1" />
+6
+7    <application>
+7-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:3:3-7:17
+8        <provider
+8-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:4:5-6:16
+9            android:name="android.support.v4.content.FileProvider"
+9-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:4:15-69
+10            android:authorities="${applicationId}.provider"
+10-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:4:70-117
+11            android:exported="false"
+11-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:4:118-142
+12            android:grantUriPermissions="true" >
+12-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:4:143-177
+13            <meta-data
+13-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:5:7-109
+14                android:name="android.support.FILE_PROVIDER_PATHS"
+14-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:5:18-68
+15                android:resource="@xml/provider_paths" />
+15-->D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\AndroidManifest.xml:5:69-107
+16        </provider>
+17    </application>
+18
+19</manifest>

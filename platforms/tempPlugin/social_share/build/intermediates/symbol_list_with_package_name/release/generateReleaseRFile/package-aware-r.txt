@@ -1,0 +1,2 @@
+org.nativescript.social_share
+xml provider_paths

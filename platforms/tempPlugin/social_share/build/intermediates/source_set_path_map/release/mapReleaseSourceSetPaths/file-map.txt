@@ -1,0 +1,7 @@
+org.nativescript.social_share-pngs-0 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\build\generated\res\pngs\release
+org.nativescript.social_share-resValues-1 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\build\generated\res\resValues\release
+org.nativescript.social_share-mergeReleaseResources-2 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+org.nativescript.social_share-mergeReleaseResources-3 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+org.nativescript.social_share-release-4 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\build\intermediates\merged_res\release\mergeReleaseResources
+org.nativescript.social_share-main-5 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\main\res
+org.nativescript.social_share-release-6 D:\cos4h\poli\semester101\auxSearch\SistemaCostos\platforms\tempPlugin\social_share\src\release\res

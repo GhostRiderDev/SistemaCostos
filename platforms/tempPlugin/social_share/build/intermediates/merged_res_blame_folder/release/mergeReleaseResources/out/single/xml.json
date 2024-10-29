@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.nativescript.social_share-release-3:/xml/provider_paths.xml",
+        "source": "org.nativescript.social_share-main-4:/xml/provider_paths.xml"
+    }
+]
