@@ -60,14 +60,12 @@ def getAppResourcesPath = { ->
         relativePathToAppResources = nsConfig.appResourcesPath
         absolutePathToAppResources = Paths.get(USER_PROJECT_ROOT).resolve(relativePathToAppResources).toAbsolutePath()
     } else {
-        absolutePathToAppResources = "${getAppPath()}/App_Resources"
+        absolutePathToAppResources = "${getAppPath()}/platforms/"
     }
     return absolutePathToAppResources
 }
 
 def applySettingsGradleConfiguration = { ->
-    if (!ext.settingsGradleApplied) {
-        ext.settingsGradleApplied = true
         def appResourcesPath = getAppResourcesPath()
         def pathToSettingsGradle = "$appResourcesPath/Android/settings.gradle"
         def settingsGradle = file(pathToSettingsGradle)
@@ -75,7 +73,6 @@ def applySettingsGradleConfiguration = { ->
             outLogger.withStyle(Style.SuccessHeader).println "\t + applying user-defined configuration from ${settingsGradle}"
             apply from: pathToSettingsGradle
         }
-    }
 }
 
 applySettingsGradleConfiguration()
