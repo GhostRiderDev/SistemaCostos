@@ -66,6 +66,8 @@ def getAppResourcesPath = { ->
 }
 
 def applySettingsGradleConfiguration = { ->
+    if (!ext.settingsGradleApplied) {
+        ext.settingsGradleApplied = true
         def appResourcesPath = getAppResourcesPath()
         def pathToSettingsGradle = "$appResourcesPath/Android/settings.gradle"
         def settingsGradle = file(pathToSettingsGradle)
@@ -73,6 +75,7 @@ def applySettingsGradleConfiguration = { ->
             outLogger.withStyle(Style.SuccessHeader).println "\t + applying user-defined configuration from ${settingsGradle}"
             apply from: pathToSettingsGradle
         }
+    }
 }
 
 applySettingsGradleConfiguration()
